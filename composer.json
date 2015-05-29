@@ -1,0 +1,26 @@
+{
+    "name": "xtwoend/user",
+    "description": "The Elearning User component.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdul Hafidz Anshari",
+            "email": "aditans88@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/config": "~5",
+        "illuminate/support": "~5",
+        "xtwoend/repository": "dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xtwoend\\Component\\User": ""
+        },
+        "classmap": [
+            "Database"
+        ],
+    },
+    "minimum-stability": "dev"
+}
